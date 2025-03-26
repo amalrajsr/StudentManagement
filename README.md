@@ -5,9 +5,8 @@ Welcome to the **Student Management System** backend, built using **Node.js**, *
 
 ## Getting Started
 
-1. **Clone the Repository**  
- Clone the repository and install dependencies:
- 
+ **Clone the Repository and install dependencies**  
+
 ```bash
 git clone https://github.com/amalrajsr/StudentManagement.git
 cd Student-Management-System
@@ -18,7 +17,7 @@ npm install
 Create a .env file in the project root:
 ```bash
 MONGO_URI=<MONGO ATALS URI>
-PORT=<PORT>
+PORT=<SPECIFY THE PORT TO RUN SERVER>
 JWT_SECRET=<JWT Secret key>
 JWT_EXPIRE=<JWT Expiration time>
 ```
