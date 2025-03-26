@@ -6,14 +6,15 @@ Welcome to the **Student Management System** backend, built using **Node.js**, *
 ## Getting Started
 
 1. **Clone the Repository**  
-   
+ Clone the repository and install dependencies:
+ 
 ```bash
 git clone https://github.com/amalrajsr/StudentManagement.git
 cd Student-Management-System
 npm install
 ```
 
-## ⚙️ Environment Variables
+##  Environment Variables
 Create a .env file in the project root:
 ```bash
 MONGO_URI=<MONGO ATALS URI>
@@ -28,7 +29,7 @@ Start the development server:
 npm run dev
 ```
 
-## 🔐 Authentication
+##  Authentication
 On successful login, you receive a JWT Bearer token.
 
 Use it in the Authorization header for protected routes:
