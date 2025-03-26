@@ -21,6 +21,10 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/admin", adminRoutes);
 app.use("/api/v1/students", studentRoutes);
 
+// welcome page
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to student management system" });
+});
 //404 endpoint
 app.use("*", (req, res) => {
   res.json({ message: "Invalid Endpoint" });
