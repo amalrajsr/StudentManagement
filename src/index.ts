@@ -2,10 +2,10 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db";
-import authRoutes from "./routes/auth";
-import adminRoutes from "./routes/admin";
-import studentRoutes from "./routes/student";
 import { errorHandler } from "./middlewares/errorHandler";
+import authRoutes from "./routes/auth";
+import studentRoutes from "./routes/student";
+import adminRoutes from "./routes/admin";
 
 dotenv.config();
 
