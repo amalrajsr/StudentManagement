@@ -8,7 +8,7 @@ Welcome to the **Student Management System** backend, built using **Node.js**, *
 1. **Clone the Repository**  
    
 ```bash
-git clone https://github.com/chris-121/Student-Management-System.git
+git clone https://github.com/amalrajsr/StudentManagement.git
 cd Student-Management-System
 npm install
 ```
@@ -16,7 +16,7 @@ npm install
 ## ⚙️ Environment Variables
 Create a .env file in the project root:
 ```bash
-MONGO_URI=<'your mongo atlas uri'>
+MONGO_URI=<MONGO ATALS URI>
 PORT=<PORT>
 JWT_SECRET=<JWT Secret key>
 JWT_EXPIRE=<JWT Expiration time>
@@ -27,7 +27,6 @@ Start the development server:
 ```bash
 npm run dev
 ```
-Server running on: http://localhost:<specified port>
 
 ## 🔐 Authentication
 On successful login, you receive a JWT Bearer token.
